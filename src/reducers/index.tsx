@@ -5,6 +5,8 @@
         case "DECREMENT":
             return state - 1;
         default:
-            break;
+            return state;
     }
  }
+
+ export default counter;
